@@ -60,3 +60,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#added gems
+# Autenticação
+gem 'devise'
+# Serialização do Json
+gem 'fast_jsonapi', git: "https://github.com/Netflix/fast_jsonapi",
+branch: "dev"
+# Pesquisas dentro do Postgresql
+gem 'pg_search'
